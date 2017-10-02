@@ -90,11 +90,25 @@ nav {
 
 /*---------------Inventory Carousel--------------*/
 
-/*.container {*/
-/*    margin-top: 45%;*/
-/*}*/
+#myCarousel {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+
 
 .carouselsection {
-    margin-top: 26%;
+    margin-top: 5%;
     margin-bottom: 1%;
+}
+
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+
 }
