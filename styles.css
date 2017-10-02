@@ -2,12 +2,12 @@
 html, body {
    padding: 0;
    margin: 0;
-   background-color: grey;
+   background-color: black;
    overflow-x: hidden;
    font-family: share_tech;
 }
 body {
-    background-color: grey;
+    background-color: black;
 }
 
 /*--------navigation bar ----------*/
@@ -20,7 +20,7 @@ body {
 
 nav a {
     text-decoration: none;
-    color: blue;
+    color: black;
 }
 
 nav li {
@@ -28,9 +28,13 @@ nav li {
     padding: 20px;
 }
 
-nav {
-   
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 35%;
 }
+
 
 .searchbox {
     position: absolute;
@@ -61,9 +65,7 @@ nav {
 /*-------------VIDEO----------*/
 
 .video {
-    display: block;
-    margin: auto;
-    width: 65%;
+    margin-left: 17%;
     margin-top: 5%;
 }
 
@@ -122,4 +124,14 @@ text-align: -webkit-center;
     background-repeat:   no-repeat;
     background-size:     cover;
 
+}
+
+.inventorytext {
+    text-align: center;
+}
+
+/*-----------------ABOUT PAGE---------------*/
+
+.aboutText {
+    text-align: center
 }
