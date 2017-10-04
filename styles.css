@@ -32,18 +32,19 @@ nav li {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    margin-left: 35%;
+    margin-left: 29%;
 }
 
 
 .searchbox {
     position: absolute;
     height: 25px;
-    left: 83%;
-    bottom: 93.5%;
+    left: 91.1%;
+    bottom: 93.74%;
     border: 1px solid white;
     border-radius: 15px;
     background: #333;    
+    margin-left: -11%;
 }
 
 .searchbutton {
@@ -57,6 +58,12 @@ nav li {
     color: white;
 }
 
+/*-----------------INDEX.HTML-------------*/
+
+
+.indexbody{
+    background-image: url("diamond.png");
+}
 
 
 
@@ -65,8 +72,8 @@ nav li {
 /*-------------VIDEO----------*/
 
 .video {
-    margin-left: 17%;
-    margin-top: 5%;
+    margin-left: 4%;
+    margin-top: 2%;
 }
 
 
@@ -94,7 +101,17 @@ text-align: -webkit-center;
     left: 0;
     padding: 1rem;
     background-color: #bfbfbf;
-    text-align: center;   
+    padding-left: 17%;
+    padding-top: 2em;
+    height:6em;
+    width: 100%;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;    
 }
 
 
@@ -127,11 +144,49 @@ text-align: -webkit-center;
 }
 
 .inventorytext {
+    color: white;
     text-align: center;
 }
+
+
+body {
+  margin: 1em;
+}
+table.dataTable.no-footer {
+  border-bottom: none;
+}
+.dataTables_wrapper .dataTables_filter {
+  position: absolute;
+  top:-3.3em;
+  right:0;
+}
+.nesgc-inventory {
+  border: 1px solid #ddd;
+}
+.nesgc-inventory thead th {
+  background-color: #eee;
+}
+.nesgc-inventory thead th:hover {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+
+
+
 
 /*-----------------ABOUT PAGE---------------*/
 
 .aboutText {
     text-align: center
 }
+
+
+
+/*---------------CONTACT PAGE---------------*/
+
+.well {
+    margin-top: .5%;
+}
+
+
